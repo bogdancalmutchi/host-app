@@ -1,0 +1,37 @@
+.formElements {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.formElement {
+    display: flex;
+    flex-direction: column;
+}
+
+.formElement input {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 1em;
+    border: 2px solid #ccc;
+    padding: 0.5em;
+}
+
+.formElement input:focus {
+    outline: none;
+    border: 2px solid #4f005f;
+}
+
+.formElement label {
+    font-size: larger;
+}
+
+.formButton {
+    font: inherit;
+    cursor: pointer;
+    padding: 0 15px;
+    border: 1px solid #40005d;
+    background-color: #40005d;
+    color: white;
+    margin-right: 1rem;
+}

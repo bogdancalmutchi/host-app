@@ -1,0 +1,21 @@
+build
+dist
+node_modules
+coverage
+yarn-error.log
+output
+target
+*tgz
+.eslintcache
+
+# Editors
+.idea
+../.idea
+
+.code
+.atom
+.vscode
+
+# OS generated files
+.DS_Store
+.DS_Store?
